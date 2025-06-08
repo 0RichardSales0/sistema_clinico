@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Para garantir um layout mais organizado */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img/teste.jfif') no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 15); /* Sombra mais intensa */
+    backdrop-filter: blur(50px); /* Efeito de desfoque */
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.remember-fogort {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px -6px;
+    font-size: 14px;
+}
+
+.remember-fogort label input {
+    accent-color: #fff;
+    margin-right: 2px;
+}
+
+.remember-fogort a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.remember-fogort a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin-top: 20px 0;
+
+}
+
+.login:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    transition: 0.2s;
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+h1 img {
+    width: 200px; /* Ajuste conforme o tamanho da logo desejado */
+    height: 100px; /* Mantém a proporção da imagem */
+    position: absolute;
+    margin-left: 360px; /* Ajuste a posição horizontal da imagem */ 
+    top: -70px; /* Ajuste a posição vertical da imagem */
+    border-radius: 30px
+
+}
+
+/* Estilo do Recuperar Senha */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Para garantir um layout mais organizado */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img/teste.jfif') no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+  width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 15); /* Sombra mais intensa */
+    backdrop-filter: blur(50px); /* Efeito de desfoque */
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin-top: 20px 0;
+
+}
+
+button:hover {
+  background-color: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    transition: 0.2s;
+}
+
+.info {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h2 img {
+    position: absolute;
+    width: 200px; /* Ajuste conforme o tamanho da logo desejado */
+    height: 100px; /* Mantém a proporção da imagem */
+    margin-left: 271px; /* Ajuste a posição horizontal da imagem */ 
+    top: -155px; /* Ajuste a posição vertical da imagem */
+    border-radius: 30px
+
+}
+
+/* Fim do Estilo do Recuperar Senha */
+
+/* Estilo do Cadastrar */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./img/teste.jfif') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: white;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(50px);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #00aaff;
+  color: white;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* POPUP */
+
+#popupSucesso {
+  display: none; /* Oculto por padrão */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+#popupSucesso:not(.hidden) {
+  display: flex;
+}
+
+#popupSucesso .conteudo {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+#popupSucesso .conteudo button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#popupSucesso .conteudo button:hover {
+  background-color: #ddd;
+}
+
+.conta {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.conta a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container input {
+    accent-color: #fff;
+    margin-right: 5px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.conta a:hover {
+    text-decoration: underline;
+}   
+
+
+/* Fim do Cadastrar */
+
+

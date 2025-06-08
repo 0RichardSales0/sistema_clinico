@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+
+  <meta charset="UTF-8" />
+  <title>Criar Conta</title>
+  <style>
+    /* Seu CSS aqui, pode manter o mesmo */
+    #popupSucesso {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      z-index: 1000;
+      display: none;
+      display: flex; /* para centralizar */
+    }
+    #popupSucesso.hidden {
+      display: none;
+    }
+    #popupSucesso .conteudo {
+      background: rgba(0,0,0,0.8);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <div>
+        <h1>Criar Conta</h1>
+        <form id="form-cadastro">
+        <input type="text" name="nome" placeholder="Nome" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="cpf" placeholder="CPF" required />
+        <input type="password" name="senha" placeholder="Senha" required />
+        <button type="submit">Cadastrar</button>
+        <div class="conta">
+                <p>Já tem uma Conta?<a href="index.html">Fazer Login</a></p>
+            
+        </div>
+    </div>
+
+    </form>
+</div>
+<div id="popupSucesso" class="hidden">
+  <div class="conteudo">
+    ✅ Cadastro realizado com sucesso!<br><br>
+
+    <a href="index.html">
+        <button id="fecharPopup">Fechar</button>
+    </a>
+  </div>
+
+</div>
+
+<script src="cadastro.js"></script>
+
+</body>
+</html>
